@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todochicas</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/contactame/cabecera.css">
+    <link rel="stylesheet" href="css/contactame/main.css">
+    <link rel="stylesheet" href="css/contactame/footer.css">
+</head>
+<body>
+
+    <header class="cabecera">
+
+        <nav class="lista">
+            <li class="item-lista-logo"> <img class="item-logo-img" src="img/logo/logo.jpeg" height="150" width="150"> </li> 
+        </nav>
+
+    </header>
+
+    <main>
+        <h1 class="titulo__contactame"> Si te gusto alguna prenda podes cargar tus datos o comunicarte directamente por Instagram o Facebook</h1>
+        <section class="cuadro__contenido">
+
+            <div class="nombre-apellido">
+                <label class="nombre__apellido" for="name"> Nombre </label>
+                <input class="nombre__apellido" type="text" id="name" name="name" placeholder="nombre"  required data-tipo="nombre">
+                <span class="input-message-error">Este campo no es valido</span>
+            </div>
+
+            <div class="nombre-apellido">
+                <label class="nombre__apellido" for=" Nombre de la prenda y Talle"> Nombre de la prenda y Talle </label>
+                <input class="nombre__apellido" type="text" id="Nombre de la prenda y Talle" name="Nombre de la prenda y Talle" placeholder="Nombre de la prenda y Talle" required data-tipo="nombre">
+                <span class="input-message-error">Este campo no es valido</span>
+            </div>
+
+            <div class="nombre-apellido">
+                <label class="nombre__apellido" for="Instragram"> Instragram </label>
+                <input class="nombre__apellido"  type="text" id="Instragram" name="Instragram" placeholder="Instragram"  required data-tipo="nombre">
+                <span class="input-message-error">Este campo no es valido</span>
+            </div>
+
+            <fieldset>
+
+                <legend> ¿En cual horario preferies para recibir tu indumentaria?</legend>
+
+                <select> 
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+
+             </fieldset>
+
+            <label> Dejame tu mensaje. </label>
+            <span class="input-message-error">Este campo no es valido</span>
+                <textarea></textarea>
+
+            <input type="submit" class="enviar">
+
+
+        </section>
+
+        <section class="volver_atras">
+            <a href="showroon.html"> Volver a Shawroon TodoChicas_.</a>
+        </section>
+
+        <nav class="comunicate">
+            <p class="comunicate__conmigo"> Comunicate conmigo</p>
+            <li class="item-lista"> <a target="_blank" href=""></a> <img class="imagen" src="img/facebok.jpg" height="80" width="80">  </li>
+            <li class="item-lista"> <a target="_blank" href=""> <img class="imagen" src="img/instagram.jpg" height="80" width="80"> </a> </li>
+        </nav>
+
+    </main>
+
+    <footer>
+        <p class="Copyright" > &copy Copyright Todochicas_. - 2023</p>
+    </footer>
+    
+    <script src="./js/app.js" type="module"></script>
+
+</body>
+</html>

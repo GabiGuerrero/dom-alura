@@ -1,0 +1,124 @@
+body{
+    background: rgb(245, 82, 131);
+}
+.titulo__contactame{
+    text-align: center;
+    font-size: 30px;
+    font-family: oblique;
+    font-weight: bolder;
+    margin: 35px 0 0 0;
+
+}
+
+.cuadro__contenido{
+    display: grid;
+    place-items: center;
+    margin: 30px 0 0 0 ;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.nombre-apellido{
+    margin: 15px 15px 15px 15px;
+}
+
+fieldset{
+    margin: 35px 0 0 0;
+}
+
+label{
+    margin:15px 0 0 0;
+}
+select{
+    margin-top: 15px;
+}
+textarea{
+    margin-top: 30px;
+}
+
+.enviar{
+    width: 20%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(238, 133, 203);
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.enviar:hover{
+    background: rgb(241, 146, 226);
+    transform: scale(1.2) ;
+}
+
+.volver_atras{
+    width: 15%;
+    border: solid 1px;
+    border-radius: 5px;
+    color:aliceblue;
+    box-shadow: 0 0 4px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #f09,
+    0 0 25px #f09,
+    0 0 30px #f09,
+    0 0 40px #f09,
+    0 0 50px #f09;
+    padding: 15px 15px 15px 15px;
+    margin: 50px 0 0 20px;
+}
+
+/* comunicate conmigo por Instragram o Facebook */
+
+.comunicate{
+    display: flex;
+    flex-shrink: 0;
+    list-style: none;
+}
+
+.comunicate__conmigo{
+    margin-top: 80px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+
+.item-lista-logo{
+    margin-top: 20px ;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+   
+}
+
+.item-logo-img{
+    border-radius: 15px; 
+}
+.titulo-lista{
+
+    margin: 60px 20px 20px auto;
+    font-size: 20px;
+     
+}
+
+.item-lista{
+    margin: 50px 15px 15px 15px;
+   
+}
+
+.imagen{
+    
+    margin-left: auto;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+
+
+
+

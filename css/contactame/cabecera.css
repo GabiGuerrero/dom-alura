@@ -1,0 +1,24 @@
+
+.cabecera{
+    background: pink;   
+}
+
+.lista{
+    display: flex;
+    flex-shrink: 0;
+    list-style: none;
+}
+
+.item-lista-logo{
+    margin-top: 20px ;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;   
+}
+
+.item-logo-img{
+    border-radius: 15px; 
+}
+
+/* main */
+

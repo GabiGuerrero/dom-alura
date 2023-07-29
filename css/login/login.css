@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(rgb(233, 133, 188),rgb(233, 193, 193));;
+
+    
+}
+
+.img-logo{
+    display: grid;
+    place-items: center;
+    margin:25px  auto;
+    border-radius: 5px;
+    flex-wrap: wrap;
+
+}
+
+.boton{
+    display: grid;
+    margin: auto;
+    width: 25%;
+    height: 50%;
+}
+
+.access_btn{
+    padding: 25px;
+    margin-top: 0.5rem;
+    border-style: none ;
+    border-radius: 20px;
+    background: linear-gradient(#ec5cbc, #efc3f5);
+    transition: all .15 ease-in-out ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+.access_btn:hover{
+    cursor:pointer ;
+}
+
+

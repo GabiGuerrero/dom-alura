@@ -1,0 +1,64 @@
+.cabecera{
+    background: pink;
+    
+}
+
+body{
+    background: rgb(177, 43, 230);
+}
+
+.lista{
+
+    display: flex;
+    flex-shrink: 0;
+    list-style: none;
+}
+
+.item-lista-logo{
+
+    margin-top: 20px ;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+   
+}
+
+.item-logo-img{
+
+    border-radius: 15px; 
+}
+
+.titulo-lista{
+
+    margin: 60px 20px 20px auto;
+    font-size: 20px;
+   
+    
+}
+
+strong{
+    font-style: oblique ;
+    text-shadow:0 0 4px #fff,  
+    0 0 10px #fff,  
+    0 0 15px #fff,
+    0 0 20px #f09,
+    0 0 25px #f09, 
+    0 0 30px #f09,
+    0 0 40px #f09, 
+    0 0 50px #f09; 
+    
+}
+
+.item-lista{
+    margin: 30px 15px 15px 15px;
+   
+}
+
+.imagen{
+    
+    margin-left: auto;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+
+
